@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/App.css"],"names":[],"mappings":"AAAA,KACE,YAAa,CACb,kBAAmB,CACnB,oBAAqB,CACrB,wBACF,CACA,MACE,eACF","file":"main.9a265ac7.chunk.css","sourcesContent":["body{\n  display: grid;\n  align-items: center;\n  justify-items: center;\n  background-color: #d0cccc;\n}\n.card{\n  margin-top: 40px;\n}\n\n\n"]}
