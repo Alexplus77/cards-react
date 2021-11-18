@@ -1,11 +1,11 @@
 import "App.css";
-const Cart = (props) => {
+const Cart = ({ children, title, text }) => {
   return (
     <div className="card" style={{ width: "18rem" }}>
-      {props.children[2]}
+      {children}
       <div className="card-body">
-        {props.children[0]}
-        {props.children[1]}
+        <h5 className="card-title">{title}</h5>
+        <p className="card-text">{text}</p>
         <a href="/#" className="btn btn-primary">
           Go somewhere
         </a>
